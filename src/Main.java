@@ -59,7 +59,6 @@ public class Main {
             System.out.printf("Месяц %d, сумма накоплений %d\n", i, accountDeposit);
         }
     }
-
     private static void task5() {
         System.out.println("Задание 2 / Задача 2");
         var accountDeposit = 15_000;
@@ -127,7 +126,7 @@ public class Main {
                 }
             }
     private static void task11() {
-        System.out.println("адание со звездочкой / Задача 2");
+        System.out.println("Задание со звездочкой / Задача 2");
         int a = 0;
         int b = 1;
         System.out.print(a + " ");
