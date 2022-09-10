@@ -9,6 +9,8 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
+        task11();
     }
 
     private static void task1() {
@@ -37,7 +39,7 @@ public class Main {
     }
 
     private static void task3() {
-        System.out.println("Задание 1 / Задача 3");
+        System.out.println("\nЗадание 1 / Задача 3");
         int y = 12_000_000;
 
         for (int i = 1; i <= 10; i++) {
@@ -109,6 +111,31 @@ public class Main {
         for (int a = 1; a <= 10; a ++) {
             int total = a*b;
             System.out.println(b + "*" + a + "=" + total);
+        }
+    }
+    private static void task10() {
+        System.out.println("Задание со звездочкой / Задача 1");
+        for (int i=1; i <=30; i++ ) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println(i + ":ping pong");}
+            else if (i % 3 == 0) {
+                    System.out.println(i + ":ping");}
+            else if (i % 5 == 0) {
+                    System.out.println(i + ":pong");}
+            else {
+                    System.out.println(i+ ":");}
+                }
+            }
+    private static void task11() {
+        System.out.println("адание со звездочкой / Задача 2");
+        int a = 0;
+        int b = 1;
+        System.out.print(a + " ");
+        for (int i = 0; i < 9 ; i++) {
+            int total = b;
+            b = a + b;
+            a = total;
+            System.out.print(total + " ");
         }
     }
 }
