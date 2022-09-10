@@ -127,7 +127,7 @@ public class Main {
                 }
             }
     private static void task11() {
-        System.out.println("адание со звездочкой / Задача 2");
+        System.out.println("Задание со звездочкой / Задача 2");
         int a = 0;
         int b = 1;
         System.out.print(a + " ");
